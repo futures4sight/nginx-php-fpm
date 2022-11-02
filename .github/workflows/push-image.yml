@@ -2,7 +2,7 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'main', 'v1.7.4-arm' ]
     paths-ignore:
       - '**.md'
 
